@@ -1,0 +1,86 @@
+﻿    <?xml version="1.0" encoding="utf-16"?>
+    <zone name="Riverhaven Society" id="30k">
+      <node id="1" name="Outfitting Society, Hallway">
+        <description>Clear glass cases span the length of the hallway, displaying fanciful quilts of all different shapes, colors and patterns.  Upon a table set across from the displays is a simple bouquet of silk flowers within an ornate glass vase.</description>
+        <position x="0" y="0" z="0" />
+        <arc exit="north" move="north" destination="13" />
+        <arc exit="east" move="east" destination="6" />
+        <arc exit="southeast" move="southeast" destination="2" />
+        <arc exit="west" move="west" destination="5" />
+      </node>
+      <node id="2" name="Outfitting Society, Hallway">
+        <description>Painted upon the center of a brown wall are women and men dressed in a variety of stylish clothing.  From either side of the grandiose painting hang dark green curtains made of thick cloth which frame the work of art.  A soft chaise lounge rests on the other side of the hall next to a series of workroom doors.</description>
+        <position x="40" y="20" z="0" />
+        <arc exit="east" move="east" destination="3" />
+        <arc exit="northwest" move="northwest" destination="1" />
+        <arc exit="go" move="go oak door" destination="7" />
+        <arc exit="go" move="go pine door" destination="8" />
+        <arc exit="go" move="go painted door" destination="9" />
+      </node>
+      <node id="3" name="Outfitting Society, Hallway">
+        <description>Painted upon brown walls are soft green leaves that appear to be floating down from the branches of an unseen tree.  Near the base, chipmunks and squirrels play with each other.  Soft cloth mats rest before several workroom doors.</description>
+        <position x="80" y="20" z="0" />
+        <arc exit="east" move="east" destination="4" />
+        <arc exit="west" move="west" destination="2" />
+        <arc exit="go" move="go stylized door" destination="10" />
+        <arc exit="go" move="go carved door" destination="11" />
+        <arc exit="go" move="go marble door" destination="12" />
+      </node>
+      <node id="4" name="Outfitting Society, Office">
+        <description>Sheer green material dangles from the ceiling and flows down to the floor in billowing cascades surrounding a neat desk and chair.  Hanging on the walls are framed sketches of various clothing designs, each drawn with an obviously skilled hand.  Situated to one side of the room is a green velvet sofa before a masterfully carved oak table.</description>
+        <position x="120" y="20" z="0" />
+        <arc exit="west" move="west" destination="3" />
+      </node>
+      <node id="5" name="Outfitting Society, Supply Depot">
+        <description>Grand marble tables and shelves fill the room with fashionable product for sale.  Upon the surfaces is a wide variety of stylish fabrics in a broad spectrum of color.</description>
+        <position x="-20" y="0" z="0" />
+        <arc exit="east" move="east" destination="1" />
+      </node>
+      <node id="6" name="Outfitting Society, Tool Store">
+        <description>Devoid of decoration, rows of shelving line the walls and hold various tools for sale in the shop.  Filling them are fine spools of thread, flat irons, straight pins and needles -- the absolute essentials for creating the perfect garment.  Tiny cobwebs hang in the corners of the ceiling, strands dangling down to the surfaces below.</description>
+        <position x="20" y="0" z="0" />
+        <arc exit="west" move="west" destination="1" />
+      </node>
+      <node id="7" name="Outfitting Society, Weaving Room">
+        <description>Set in the back of the large workroom is a hefty loom.  Hooks and shelves line the checkerboard walls, holding various tools and spools of thread that are currently not in use.  To the rear of the room is a large work table and bench.</description>
+        <position x="60" y="40" z="0" />
+        <arc exit="go" move="go door" destination="2" />
+      </node>
+      <node id="8" name="Outfitting Society, Weaving Room">
+        <description>Set in the back of the large workroom is a hefty loom.  Hooks and shelves line the deep purple walls, holding various tools and spools of thread that are currently not in use.  To the rear of the room is a large work table and bench.</description>
+        <position x="40" y="40" z="0" />
+        <arc exit="go" move="go door" destination="2" />
+      </node>
+      <node id="9" name="Outfitting Society, Weaving Room">
+        <description>Set in the back of the large workroom is a hefty loom.  Hooks and shelves line the soft blue walls, holding various tools and spools of thread that are currently not in use.  To the rear of the room is a large work table and bench.</description>
+        <position x="20" y="40" z="0" />
+        <arc exit="go" move="go door" destination="2" />
+      </node>
+      <node id="10" name="Outfitting Society, Spinning Room">
+        <description>Brilliant orange silk flowers carefully affixed to the dark green walls create a gentle elegance to the room.  Beneath a large spinning wheel is a padded silk rug trimmed with braided cord.  A large workbench and chair pressed against the back wall provide a convenient place to relax.</description>
+        <position x="100" y="0" z="0" />
+        <arc exit="go" move="go door" destination="3" />
+      </node>
+      <node id="11" name="Outfitting Society, Spinning Room">
+        <description>Pale yellow silk flowers carefully affixed to the burnt orange walls create a gentle elegance to the room.  Beneath a large spinning wheel is a yellow woven rug trimmed with black velvet tassels.  A large workbench and chair pressed against the back wall provide a convenient place to relax.</description>
+        <position x="80" y="0" z="0" />
+        <arc exit="go" move="go door" destination="3" />
+      </node>
+      <node id="12" name="Outfitting Society, Spinning Room">
+        <description>Pale pink silk flowers carefully affixed to the soft blue walls create a gentle elegance to the room.  Beneath a large spinning wheel is a white hide rug trimmed with thick ribbon.  A large workbench and chair pressed against the back wall provide a convenient place to relax.</description>
+        <position x="60" y="0" z="0" />
+        <arc exit="go" move="go door" destination="3" />
+      </node>
+      <node id="13" name="Outfitting Society, Book Store">
+        <description>Shelves of books line the walls of this otherwise simple room.  Set off to one side is a long oak counter with a long silk tablecloth dangling just slightly over the edges where patrons wait patiently to purchase their work books.</description>
+        <position x="0" y="-20" z="0" />
+        <arc exit="south" move="south" destination="1" />
+        <arc exit="go" move="go door" destination="14" />
+      </node>
+      <node id="14" name="Riverhaven, Crescent Way" note="Map30_Riverhaven.xml">
+        <description>Backyards and wash lines mingle with a few tradesmen and servants, turning this narrow lane into a minature thoroughfare.  A few children even play, running back and forth across the road or leaping up to swing from the branches of a low tree shading the roadway. Somewhere, bread is baking and the scent vies with the other odors and ever present fishy stench and finally wins out.</description>
+        <position x="0" y="-40" z="0" />
+        <arc exit="east" move="east" />
+        <arc exit="southwest" move="southwest" />
+      </node>
+    </zone>
