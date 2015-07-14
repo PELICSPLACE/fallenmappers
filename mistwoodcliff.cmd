@@ -24,12 +24,12 @@ SubSkip:
 #---------------------------------------
 # SCRIPT START
 #---------------------------------------
-	put peer path
+	send peer path
 	waitforre Peering closely at
-	put down
-	put %Dir
-	put nw
+	send down
+	send %Dir
+	send northwest
 	waitforre ^Birds chitter in the branches
-	pause
+	pause 0.5
 	put #parse MOVE SUCCESSFUL
 	
