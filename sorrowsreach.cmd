@@ -16,5 +16,6 @@ SorrowsReachMoveOn:
      waitforre ^The path underfoot is overgrown with weeds and almost completely covered with dried\, fallen branches yet still feels surprisingly firm\.
      pause
      put #parse MOVE SUCCESSFUL
+     put #parse MOVE SUCCESSFUL
      exit
-#### EOF
+#### END OF SCRIPT
